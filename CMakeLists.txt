@@ -18,6 +18,7 @@ set(PRIVATE_INCLUDE_DIRS ${INCLUDE_DIR})
 set(LIBS
     ${LIBS}
     pico_stdlib
+    pico_cyw43_arch_none
 )
 add_compile_definitions(VERSION="${VERSION}")
 add_compile_definitions(PROJECT_NAME="${PROJECT_NAME}")
